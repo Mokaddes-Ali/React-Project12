@@ -8,12 +8,21 @@ import Blog from './Pages/Blog';
 import Client from './Pages/Client';
 import Services from './Pages/Services';
 import Portfolio from './Pages/Portfolio';
+import { ColorProvider } from './Components/ColorContext';
+import ColorToggleButton from './Components/ColorToggleButton';
+import OtherComponent from './Components/OtherComponent';
 
 
 
 
 const App = () => {
   return (
+
+    <ColorProvider>
+    <div className="container mx-auto">
+      <ColorToggleButton />
+      <OtherComponent />
+    </div>
     <div className="container mx-auto">
       <Navbar />
       <div className="">
@@ -28,6 +37,7 @@ const App = () => {
         </Routes>
       </div>
     </div>
+    </ColorProvider>
   );
 };
 
