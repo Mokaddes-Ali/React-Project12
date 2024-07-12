@@ -11,9 +11,10 @@ import Portfolio from './Pages/Portfolio';
 
 
 
+
 const App = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <Navbar />
       <div className="">
         <Routes>
