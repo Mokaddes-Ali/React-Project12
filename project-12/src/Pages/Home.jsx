@@ -1,10 +1,23 @@
-import React from 'react'
-import HeroSection from '../Components/HeroSection'
+import React from 'react';
+import Blog from './Blog';
+import Portfolio from './Portfolio';
+import Client from './Client';
+import Services from './Services';
+import Footer from '../Components/Footer';
+import HeroSection from '../Components/HeroSection';
 
-export default function Home() {
+
+const Home = () => {
   return (
     <div>
-        <HeroSection />
+      <HeroSection />
+      <Blog />
+      <Client />
+      <Portfolio />
+      <Services />
+      <Footer />
     </div>
-  )
-}
+  );
+};
+
+export default Home;
