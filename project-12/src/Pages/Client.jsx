@@ -32,7 +32,7 @@ const Client = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div id="client" className="container mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold mb-4">Our Clients</h2>
       <Slider {...settings}>
         {clients.map(client => (

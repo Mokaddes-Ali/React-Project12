@@ -43,7 +43,7 @@ const Blog = () => {
   };
 
   return (
-    <div className="w-screen container mx-auto mt-10">
+    <div id="blog" className="w-screen container mx-auto mt-10">
       <div className="mt-10 mb-16" >
       <h1 className="flex justify-center items-center">Our Blog</h1>
       <p className=" flex justify-center items-center text-center">It is a long established fact that 

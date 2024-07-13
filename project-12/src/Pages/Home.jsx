@@ -6,14 +6,15 @@ import Services from './Services';
 import Footer from '../Components/Footer';
 import HeroSection from '../Components/HeroSection';
 import Darkmode from '../Components/Darkmode';
-import ChangeDirectionButton from '../Components/ScrollButton';
+import ChangeDirectionButton from '../Components/ChangeDirectionButton';
+import About from './About';
 
 
 
 
 const Home = () => {
   return (
-    <div className='dark:bg-black'>
+    <div id="home" className='dark:bg-black'>
       <div className="fixed mt-24">
         <Darkmode />
       </div>
@@ -21,12 +22,13 @@ const Home = () => {
       <ChangeDirectionButton />
       </div>
       <HeroSection />
+      <About />
       <Blog />
       <Client />
       <Portfolio />
       <Services />
       <Footer />
-    </div>
+      </div>
   );
 };
 

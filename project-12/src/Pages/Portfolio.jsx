@@ -37,7 +37,7 @@ const Portfolio = () => {
   const filteredCards = getFilteredCards();
 
   return (
-    <div className="container mx-auto py-8 px-4">
+    <div id="portfolio" className="container mx-auto py-8 px-4">
       <div className="flex justify-center mb-4">
         <button
           onClick={() => setActiveCategory('All')}
