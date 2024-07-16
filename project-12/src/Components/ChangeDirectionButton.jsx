@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+
+ 
+import React, { useState , useContext } from 'react';
+import { ColorContext } from './ColorContext';
 
 const ChangeDirectionButton = () => {
   const [isLeft, setIsLeft] = useState(true);
+  const { colors, currentColorIndex } = useContext(ColorContext);
+  const selectedColor = colors[currentColorIndex];
 
   const toggleDirection = () => {
     setIsLeft(!isLeft);
@@ -11,7 +16,8 @@ const ChangeDirectionButton = () => {
   return (
     <div className="flex justify-center items-center mt-5">
       <button
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center"
+         style={{ backgroundColor: selectedColor.bg }}
+        className=" text-white font-bold py-2 px-3 rounded flex items-center focus:outline-none focus:ring-0"
         onClick={toggleDirection}
       >
         {isLeft ? 'RTL' : 'LTR'}
@@ -21,4 +27,3 @@ const ChangeDirectionButton = () => {
 };
 
 export default ChangeDirectionButton;
- 
