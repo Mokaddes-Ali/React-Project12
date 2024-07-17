@@ -50,7 +50,7 @@ const Blog = () => {
   };
 
   return (
-    <div id="blog" className="w-[1349px] mt-10 pt-10 mb-16 bg-[#f8f9fa] dark:bg-slate-950 dark:text-white">
+    <div id="blog" className="w-[1348px] mt-10 pt-10 mb-16 bg-[#f8f9fa] dark:bg-slate-950 dark:text-white">
       <div className="container mx-auto">
       <div className="mt-10 mb-20">
         <h1 className="flex justify-center items-center text-black font-semibold text-[50px] mt-5 mb-7 dark:text-white">Our <span className=" text-black ml-3 text-[45px] font-bold dark:text-white" >Blog</span></h1>

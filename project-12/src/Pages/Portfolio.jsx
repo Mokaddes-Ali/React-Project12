@@ -37,7 +37,7 @@ const Portfolio = () => {
   const filteredCards = getFilteredCards();
 
   return (
-    <div id="portfolio" className="container mx-auto py-8 px-4">
+    <div id="portfolio" className="container mx-auto py-8 px-4 w-[1348px]">
        <div className="mt-10 mb-20">
         <h1 className="flex justify-center items-center text-black font-semibold text-[50px] mt-5 mb-7">Our <span className=" text-black ml-3 text-[45px] font-bold" >Works</span></h1>
         <p className="flex justify-center items-center text-center text-xl mr-[350px] ml-[350px] text-gray-600">

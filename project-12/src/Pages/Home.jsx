@@ -16,7 +16,7 @@ import Darkmode from '../Components/Darkmode';
 
 const Home = () => {
   return (
-    <div id="home" className='dark:bg-black'>
+    <div id="home" className='dark:bg-black w-[1348px]'>
        <div className="p-8 fixed mt-40 z-30">
        <ColorChanger className="z-30" />
       </div>

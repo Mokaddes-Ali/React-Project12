@@ -8,7 +8,7 @@ const HeroSection = () => {
   const { colors, currentColorIndex } = useContext(ColorContext);
   const selectedColor = colors[currentColorIndex];
   return (
-    <div className="h-[650px]">
+    <div className="h-[550px] w-[1348px]">
     <div className="">
       <img className='absolute inset-0 h-full w-full object-cover'
       src ='https://kerrivpreview.netlify.app/html/assets/images/header-bg.jpg'

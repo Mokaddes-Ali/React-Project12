@@ -22,9 +22,9 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-12 bg-gray-100 w-[1348px] dark:bg-black">
-      <div className="pl-16 pr-16">
-       <div className="mt-10 mb-20">
+    <section id="services" className="py-12 bg-gray-100 h-[1180px]  dark:bg-gray-900 w-[1348px]">
+      <div className="p-16 ">
+       <div className="mb-14 -mt-10">
         <h1 className="flex justify-center items-center text-black font-semibold text-[50px] mt-5 mb-7 dark:text-white">Our <span className=" text-black ml-3 text-[45px] font-bold dark:text-white" >Services</span></h1>
         <p className="flex justify-center items-center text-center text-xl mr-[350px] ml-[350px] text-gray-600 dark:text-white">
           It is a long established fact that a reader will be of a page when established fact looking at its layout.
@@ -37,7 +37,7 @@ const Services = () => {
             return(
               <div
                 key={index}
-                className="p-6 bg-white dark:bg-slate-950 dark:text-white rounded-lg shadow-md flex flex-col items-center text-center group"
+                className="p-6 bg-white dark:border dark:border-white dark:bg-black dark:text-white rounded-lg shadow-md flex flex-col items-center text-center group"
               >
                 <Icon style={{ color: selectedColor.text }}
                   className="text-5xl mb-4 cursor-pointer transition-transform duration-300 text-black group-hover:text-black"
@@ -52,6 +52,12 @@ const Services = () => {
             );
           })}
         </div>
+        </div>
+        <div className="bg-white p-28 dark:bg-black">
+        <h2 className="text-4xl font-semibold text-center dark:text-white -mt-5">I Am Available For Freelancer.</h2>
+        <button className="mt-8 flex mx-auto text-white text-xl font-bold py-3 px-12 rounded" style={{ backgroundColor: selectedColor.bg}}>
+        Hire Me
+      </button>
         </div>
     </section>
   );

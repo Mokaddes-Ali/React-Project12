@@ -10,7 +10,7 @@ const Footer = () => {
   const selectedColor = colors[currentColorIndex];
 
   return (
-    <footer className="bg-gray-200 text-center p-10 w-[1348px] space-x-5 dark:bg-black">
+    <footer className="bg-gray-200 text-center p-10 w-[1348px] space-x-5 dark:bg-[#090a0c]">
       <div style={{ backgroundColor: selectedColor.bg }} className=" mt-12  inline-block p-2 rounded-full">
         <TiSocialFacebook className='hover:text-blue-800 text-white' size={30} />
       </div>

@@ -8,7 +8,7 @@ import Navbar from './Components/Navbar'
 
 const App = () => {
   return (
-    <ColorProvider className="dark:bg-black">
+    <ColorProvider className="w-[1348px]">
     <div className="container mx-auto">
       <Navbar />
       <div className="">

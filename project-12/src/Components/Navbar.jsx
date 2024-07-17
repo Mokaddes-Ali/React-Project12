@@ -101,7 +101,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`fixed top-0 w-full h-20 z-10 transition-colors duration-300 ${isScrolled ? 'bg-gray-500 text-black' : 'bg-transparent text-white'} dark:${isScrolled ? 'bg-black text-white' : 'bg-transparent text-white'}`}>
+        <nav className={`fixed top-0 w-[1348px] h-20 z-10 transition-colors duration-300 ${isScrolled ? 'bg-gray-500 text-black' : 'bg-transparent text-white'} dark:${isScrolled ? 'bg-black text-white' : 'bg-transparent text-white'}`}>
             <div className="container mx-auto px-4 flex">
                 <div className="mt-8 ml-16">
                     <img src={logo} alt="logo" className="h-9 w-24" />
