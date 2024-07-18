@@ -43,25 +43,25 @@ const About = () => {
             style={{ color: selectedColor.text }}
             className="inline-block p-2 mt-5 space-x-3 rounded-full dark:ring-1 dark:ring-white ring-1 dark:hover:ring-orange-700 ring-black hover:ring-1 hover:ring-orange-700"
           >
-            <TiSocialFacebook className="hover:text-orange-700" size={35} />
+            <TiSocialFacebook className="hover:text-orange-700" size={30} />
           </div>
           <div
             style={{ color: selectedColor.text }}
             className="inline-block p-2 gap-5 rounded-full ring-1 dark:ring-1 dark:ring-white dark:hover:ring-orange-700 ring-black hover:ring-1 hover:ring-orange-700"
           >
-            <RiLinkedinLine className="hover:text-orange-700"  size={35} />
+            <RiLinkedinLine className="hover:text-orange-700"  size={30} />
           </div>
           <div
             style={{ color: selectedColor.text }}
             className="inline-block p-2 rounded-full ring-1 dark:ring-1 dark:ring-white dark:hover:ring-orange-700 ring-black hover:ring-1 hover:ring-orange-700"
           >
-            <TiSocialPinterest className="hover:text-orange-700" size={35} />
+            <TiSocialPinterest className="hover:text-orange-700" size={30} />
           </div>
           <div
             style={{ color: selectedColor.text }}
             className="inline-block p-2 rounded-full ring-1 dark:ring-1 dark:ring-white dark:hover:ring-orange-700 ring-black hover:ring-1 hover:ring-orange-700"
           >
-            <TiSocialTwitter className="hover:text-orange-700" size={35} />
+            <TiSocialTwitter className="hover:text-orange-700" size={30} />
           </div>
           </div>
         </div>

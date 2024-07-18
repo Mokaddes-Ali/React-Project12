@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import { FaPalette, FaBullhorn, FaWifi, FaMobileAlt, FaCogs } from 'react-icons/fa';
 import { ColorContext } from '../Components/ColorContext';
 import { FiEdit } from "react-icons/fi";
 import { PiChartLineUpThin } from "react-icons/pi";
