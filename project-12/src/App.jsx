@@ -1,7 +1,7 @@
-import React from 'react';
+
 import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
-import { ColorProvider} from './Components/ColorContext';
+import { ColorProvider } from './Components/ColorContext';
 import Navbar from './Components/Navbar'
 
 
