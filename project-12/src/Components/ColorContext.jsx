@@ -14,7 +14,6 @@ export const ColorProvider = ({ children }) => {
   ]);
 
   const [currentColorIndex, setCurrentColorIndex] = useState(0);
-
   const selectColor = (index) => {
     setCurrentColorIndex(index);
   };

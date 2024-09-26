@@ -19,7 +19,6 @@ function Darkmode() {
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
-
   return (
     <div className="flex items-center justify-center">
       <button
@@ -36,5 +35,4 @@ function Darkmode() {
     </div>
   );
 }
-
 export default Darkmode;
